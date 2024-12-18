@@ -1,0 +1,17 @@
+@mixin container($width,$margin_left){
+    width: $width;
+    margin-left:$margin_left;
+}
+@mixin display-element-flex($align,$justify){
+    display: flex;
+    justify-content:$justify;
+    align-items: $align;
+}
+@mixin input-button-style{
+    border: none;
+    outline: none;
+}
+@mixin text-orange{
+    color: $color;
+    font-family: $font-family;
+}
